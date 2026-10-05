@@ -1,0 +1,94 @@
+[
+  { "id": 1, "slug": "day-01", "date": "JAN. 01", "credit": "Piero", "prompt": "One color, one shape.", "title": "Monochrome mitose", "color": "acid", "domOnly": false,
+    "justification": "Une seule teinte, une seule forme : le cercle. Pour éviter la monotonie je joue sur la seule variable qu'il me reste — l'échelle et la densité — en empilant des centaines de cercles respirants dont le rayon pulse sur une sinusoïde légèrement déphasée. La contrainte devient un métronome : la pièce respire au lieu d'être statique." },
+
+  { "id": 2, "slug": "day-02", "date": "JAN. 02", "credit": "Anna Lucia", "prompt": "Twelve principles of animation.", "title": "Squash, stretch, repeat", "color": "magenta", "domOnly": false,
+    "justification": "Plutôt que d'illustrer les douze principes un par un, j'en choisis trois qui se contredisent le plus à l'écran : squash & stretch, anticipation et easing. Une balle rebondit avec un faux réalisme cartoon — elle s'écrase avant l'impact, s'étire au décollage — pour rendre visible la triche perceptuelle qui fait qu'un rebond a l'air 'vivant'." },
+
+  { "id": 3, "slug": "day-03", "date": "JAN. 03", "credit": "PaoloCurtoni", "prompt": "Fibonacci forever. Create a work that uses the Fibonacci sequence in some way.", "title": "Phyllotaxie, angle d'or", "color": "cyan", "domOnly": false,
+    "justification": "Plutôt que la spirale dorée collée sur tout, je pars de l'angle d'or (dérivé directement du rapport de Fibonacci) pour placer 220 points façon phyllotaxie — l'arrangement que l'on retrouve dans un tournesol. La taille de chaque point est elle-même modulée par la suite de Fibonacci : la suite ne décore pas l'image, elle la construit à deux niveaux différents." },
+
+  { "id": 4, "slug": "day-04", "date": "JAN. 04", "credit": "Manuel Larino", "prompt": "Lowres. An image or graphic with low resolution, where details are simplified or pixelated.", "title": "16 couleurs, un visage flou", "color": "amber", "domOnly": false,
+    "justification": "Je génère un portrait procédural (ellipses, traits) en haute résolution dans un buffer caché, puis je le ré-échantillonne brutalement à 24×24 cases avant de le ré-agrandir sans lissage. Le sujet se brouille volontairement : la basse résolution n'est pas un filtre esthétique, c'est une perte d'information assumée." },
+
+  { "id": 5, "slug": "day-05", "date": "JAN. 05", "credit": "Piero", "prompt": "Write “Genuary”. Avoid using a font.", "title": "Lettres-brindilles", "color": "violet", "domOnly": false,
+    "justification": "Le mot 'GENUARY' est construit lettre par lettre à partir de segments générés par un petit système de croissance façon L-system (une brindille qui bifurque), contraints dans la silhouette de chaque caractère. Aucune police n'est chargée : les lettres sont littéralement cultivées, pas dessinées." },
+
+  { "id": 6, "slug": "day-06", "date": "JAN. 06", "credit": "George Henry Rowe", "prompt": "Lights on/off. Make something that changes when you switch on or off the “digital” lights.", "title": "Interrupteur de ville", "color": "coral", "domOnly": false,
+    "justification": "Une grille de fenêtres façon immeuble. Cliquer sur le canevas bascule l'éclairage général : lumières 'on', chaque fenêtre s'allume en scintillant indépendamment ; lumières 'off', la grille retombe dans un bleu de nuit avec juste quelques fenêtres tenaces. L'interaction est le sujet, pas un bonus." },
+
+  { "id": 7, "slug": "day-07", "date": "JAN. 07", "credit": "PaoloCurtoni", "prompt": "Boolean algebra. Get inspired by Boolean algebra, in any way.", "title": "AND / OR / XOR", "color": "lemon", "domOnly": false,
+    "justification": "Deux champs de cercles qui se déplacent lentement se superposent. À chaque frame j'évalue AND, OR et XOR entre leurs zones de recouvrement et j'assigne une couleur par opérateur. Le résultat est une troisième forme, ni l'une ni l'autre, qui n'existe que parce que la logique binaire la fait apparaître." },
+
+  { "id": 8, "slug": "day-08", "date": "JAN. 08", "credit": "PaoloCurtoni", "prompt": "A City. Create a generative metropolis.", "title": "Skyline au jet de dés", "color": "azure", "domOnly": false,
+    "justification": "Une skyline générée par subdivision récursive de bandes verticales en tours de hauteurs et largeurs aléatoires, avec une règle simple : plus une tour est proche du centre, plus elle a de chances d'être haute. Les fenêtres allumées sont tirées au sort indépendamment à chaque frame, pour une ville qui respire légèrement même immobile." },
+
+  { "id": 9, "slug": "day-09", "date": "JAN. 09", "credit": "PaoloCurtoni", "prompt": "Crazy automaton. Cellular automata with crazy rules.", "title": "Règle 30, teintée", "color": "acid", "domOnly": false,
+    "justification": "Un automate cellulaire 1D (proche de la Règle 30 de Wolfram, volontairement perturbée par une mutation aléatoire à chaque ligne) dessine sa propre histoire de haut en bas, chaque génération devenant une ligne de pixels. Le chaos déterministe — simple au départ, imprévisible ensuite — est exactement le sujet du prompt." },
+
+  { "id": 10, "slug": "day-10", "date": "JAN. 10", "credit": "Sophia (fractal kitty)", "prompt": "Polar coordinates.", "title": "Rose polaire", "color": "magenta", "domOnly": false,
+    "justification": "Toute la pièce est écrite en (r, θ) plutôt qu'en (x, y) : une courbe-rose r = cos(kθ) module le rayon d'un nuage de points tournant lentement. Travailler en coordonnées polaires change littéralement la façon de penser le mouvement — tout devient rotation et pulsation plutôt que vecteurs." },
+
+  { "id": 11, "slug": "day-11", "date": "JAN. 11", "credit": "Manuel Larino", "prompt": "Quine. A Quine is a form of code poetry, it’s a computer program that outputs exactly its own source code.", "title": "Le code se regarde", "color": "cyan", "domOnly": false,
+    "justification": "Impossible (et hors-sujet) de faire un vrai quine en p5 affiché dans un canevas. Je garde l'esprit plutôt que la lettre : le sketch contient son propre code source sous forme de chaîne de caractères, qu'il affiche lui-même, caractère par caractère, en pluie façon Matrix. Le programme ne se duplique pas, il se contemple." },
+
+  { "id": 12, "slug": "day-12", "date": "JAN. 12", "credit": "Stranger in the Q", "prompt": "Boxes only.", "title": "Rien que des boîtes", "color": "amber", "domOnly": false,
+    "justification": "Contrainte prise au pied de la lettre : uniquement des rectangles, aucune autre primitive. Un algorithme de subdivision façon 'découpe de boîtes' (binary space partitioning) fragmente le canevas en rectangles de tailles variables, colorés selon leur profondeur de récursion, pour que la contrainte minimale produise une composition qui ne se sent pas pauvre." },
+
+  { "id": 13, "slug": "day-13", "date": "JAN. 13", "credit": "Jos Vromans", "prompt": "Self portrait. For example, get started with a very basic human face.", "title": "Autoportrait paramétrique", "color": "violet", "domOnly": false,
+    "justification": "Plutôt qu'un visage figé, un visage paramétrique dont les traits (écart des yeux, courbe des sourcils, teint) sont pilotés par des sliders cachés qui dérivent doucement avec le temps. Ce n'est pas MON visage exact, c'est une famille infinie de visages qui me ressemblent par endroits — un autoportrait probabiliste." },
+
+  { "id": 14, "slug": "day-14", "date": "JAN. 14", "credit": "Roni", "prompt": "Everything fits perfectly.", "title": "Tessellation sans reste", "color": "coral", "domOnly": false,
+    "justification": "Un pavage de triangles qui s'emboîtent exactement sans aucun interstice ni débordement, les sommets alignés au pixel près sur une grille isométrique. Rien ne dépasse du cadre, rien ne manque : la perfection ici est littérale, géométrique, presque obsessionnelle." },
+
+  { "id": 15, "slug": "day-15", "date": "JAN. 15", "credit": "P1xelboy", "prompt": "Create an invisible object where only the shadows can be seen.", "title": "L'ombre sans l'objet", "color": "lemon", "domOnly": false,
+    "justification": "Des formes 3D simples tournent dans l'espace mais ne sont jamais dessinées elles-mêmes — seule leur projection d'ombre au sol, assombrie et déformée selon l'angle, est rendue. L'objet reste une absence ; seule sa trace au sol prouve qu'il existe et bouge." },
+
+  { "id": 16, "slug": "day-16", "date": "JAN. 16", "credit": "Ivan Dianov", "prompt": "Order and disorder.", "title": "Grille qui se dérègle", "color": "azure", "domOnly": false,
+    "justification": "Une grille parfaitement alignée à gauche se désorganise progressivement vers la droite : décalages, rotations et bruit augmentent linéairement selon la position horizontale. L'ordre et le désordre coexistent dans la même image, reliés par un unique gradient de contrôle plutôt que juxtaposés." },
+
+  { "id": 17, "slug": "day-17", "date": "JAN. 17", "credit": "Ivan Dianov", "prompt": "Wallpaper group. There are only 17 ways to cover a plane with a repeating pattern.", "title": "Groupe p4m, fait main", "color": "acid", "domOnly": false,
+    "justification": "J'implémente un seul des 17 groupes de papier peint (p4m : symétrie à 4 plis avec miroirs) en dessinant un unique motif de base puis en le réfléchissant et le faisant tourner mathématiquement pour remplir le plan — pas de copier-coller visuel, la symétrie est calculée à chaque tuile." },
+
+  { "id": 18, "slug": "day-18", "date": "JAN. 18", "credit": "Baret LaVida", "prompt": "Unexpected path. Draw a route that changes direction based on one very simple rule.", "title": "La règle du nombre premier", "color": "magenta", "domOnly": false,
+    "justification": "Un marcheur avance pas à pas ; la règle est : 'si le nombre de pas effectués est premier, tourne de 90°, sinon continue tout droit.' Une règle arithmétique triviale produit un chemin impossible à anticiper à l'œil, qui s'étend, se replie et manque parfois de se recouper lui-même." },
+
+  { "id": 19, "slug": "day-19", "date": "JAN. 19", "credit": "Jos Vromans", "prompt": "16x16", "title": "Icône pixel-art 16×16", "color": "cyan", "domOnly": false,
+    "justification": "Une grille stricte de 16×16 cellules, chaque cellule binaire (pleine ou vide), régénérée aléatoirement mais contrainte à une symétrie miroir verticale — comme une icône de jeu rétro ou un sceau pixel-art. La contrainte de taille devient un format, pas une limitation." },
+
+  { "id": 20, "slug": "day-20", "date": "JAN. 20", "credit": "Jos Vromans", "prompt": "One line. An artwork that is made of a single line only.", "title": "Une seule ligne, jamais levée", "color": "amber", "domOnly": false,
+    "justification": "Un unique polyligne continue (le stylo numérique ne 'lève' jamais le crayon) tisse un portrait de visage approximatif en traversant tout le canevas plusieurs fois selon un champ de bruit de Perlin. La continuité est vérifiée par construction : chaque segment part exactement où le précédent s'arrête." },
+
+  { "id": 21, "slug": "day-21", "date": "JAN. 21", "credit": "Piero", "prompt": "Bauhaus Poster. Create a poster design inspired by the German art school Bauhaus.", "title": "Affiche Bauhaus générative", "color": "violet", "domOnly": false,
+    "justification": "Formes primaires (cercle, triangle, carré), palette primaire stricte (rouge, jaune, bleu + noir), grille rigide à la Herbert Bayer. Chaque relance choisit une composition différente mais reste à l'intérieur de ces règles typographiques et chromatiques héritées du mouvement — la contrainte historique sert de garde-fou esthétique." },
+
+  { "id": 22, "slug": "day-22", "date": "JAN. 22", "credit": "Sophia (fractal kitty)", "prompt": "Pen plotter ready.", "title": "Prêt pour le traceur", "color": "coral", "domOnly": false,
+    "justification": "Pas de remplissage, pas de dégradé, pas d'opacité — uniquement des traits vectoriels simples (hachures parallèles à densité variable) qu'un traceur à stylo pourrait réellement tracer sans jamais lever la plume inutilement. Le sketch s'impose des limites physiques même en restant purement numérique." },
+
+  { "id": 23, "slug": "day-23", "date": "JAN. 23", "credit": "PaoloCurtoni", "prompt": "Transparency. Explore the concept of transparency.", "title": "Calques qui se révèlent", "color": "lemon", "domOnly": false,
+    "justification": "Des dizaines de polygones translucides (alpha très faible) se superposent au passage de la souris ; plus on repasse sur une zone, plus elle devient opaque et dense. La transparence n'est pas qu'un réglage alpha ici, elle devient une mémoire visuelle du passage du curseur." },
+
+  { "id": 24, "slug": "day-24", "date": "JAN. 24", "credit": "Sophia (fractal kitty)", "prompt": "Perfectionist’s nightmare.", "title": "Presque symétrique", "color": "azure", "domOnly": false,
+    "justification": "Une mandala presque parfaitement symétrique... sauf qu'un seul segment, choisi aléatoirement à chaque génération, est légèrement décalé ou mal proportionné. Rien de visible au premier regard, tout au second — le cauchemar du perfectionniste est caché mais bien réel dans le code." },
+
+  { "id": 25, "slug": "day-25", "date": "JAN. 25", "credit": "Manuel Larino", "prompt": "Organic Geometry. Forms that look or act organic but are constructed entirely from geometric shapes.", "title": "Corail de triangles", "color": "acid", "domOnly": false,
+    "justification": "Une structure qui évoque un corail ou une colonie cellulaire, mais entièrement bâtie par subdivision récursive de triangles qui se ramifient selon des règles d'angle strictes. Rien n'est dessiné à la main ni par courbe organique — la sensation de vivant émerge uniquement de la récursivité géométrique." },
+
+  { "id": 26, "slug": "day-26", "date": "JAN. 26", "credit": "Piero", "prompt": "Recursive Grids. Split the canvas into a grid of some kind and recurse on each cell again and again.", "title": "Grilles dans les grilles", "color": "magenta", "domOnly": false,
+    "justification": "C'est la pièce dont je suis le plus fier du mois. Le canevas est divisé en une grille 2×2 ; chaque cellule a une probabilité décroissante avec la profondeur de se re-diviser encore, en changeant de couleur et de légère rotation à chaque niveau. Le résultat ressemble à une carte, un circuit imprimé et une ville vue du ciel en même temps — la récursivité simple produit une complexité que je n'aurais jamais pu dessiner à la main." },
+
+  { "id": 27, "slug": "day-27", "date": "JAN. 27", "credit": "Manuel Larino", "prompt": "Lifeform. A shape or structure that behaves as if it’s alive or growing.", "title": "Colonie qui respire", "color": "cyan", "domOnly": false,
+    "justification": "Une colonie de cercles-cellules nait au centre et se divise au fil du temps : chaque cellule a une chance de se scinder en deux voisines si l'espace local le permet, un peu comme une mitose simplifiée. Rien n'est animé image par image à la main, tout émerge d'une règle de division locale répétée." },
+
+  { "id": 28, "slug": "day-28", "date": "JAN. 28", "credit": "Piero", "prompt": "No libraries, no canvas, only HTML elements.", "title": "Div contre div", "color": "amber", "domOnly": true,
+    "justification": "Jour sans p5.js, sans canvas, sans SVG : uniquement des balises <div> générées et stylées en CSS pur, positionnées et animées via transform et transition. Une grille de divs change de taille, de couleur et de rotation en cascade au survol — la contrainte oblige à redécouvrir le DOM comme matériau graphique à part entière." },
+
+  { "id": 29, "slug": "day-29", "date": "JAN. 29", "credit": "Monokai", "prompt": "Genetic evolution and mutation.", "title": "Population qui dérive", "color": "violet", "domOnly": false,
+    "justification": "Une population de petites formes (taille, couleur, nombre de côtés encodés comme un 'génome' de 3 nombres) se renouvelle à intervalles réguliers : les individus les plus proches du centre de l'écran ont plus de chances de 'survivre' et de transmettre leur génome avec une légère mutation aléatoire. Pas d'intelligence artificielle ici, juste une sélection et une mutation mécaniques." },
+
+  { "id": 30, "slug": "day-30", "date": "JAN. 30", "credit": "Bart Simons", "prompt": "Its not a bug, its a feature.", "title": "Le bug assumé", "color": "coral", "domOnly": false,
+    "justification": "En testant un champ de particules, une erreur d'indice m'a fait obtenir un effet de traînées cassées et de téléportations erratiques que je trouvais plus intéressant que le comportement prévu. Je l'ai gardé et renforcé volontairement : le sketch final est littéralement ce bug, assumé et amplifié jusqu'à devenir le sujet." },
+
+  { "id": 31, "slug": "day-31", "date": "JAN. 31", "credit": "Piero", "prompt": "GLSL day. Create an artwork using only shaders.", "title": "Dernier jour, plasma GLSL", "color": "lemon", "domOnly": false,
+    "justification": "Pour clore le mois, tout le rendu se fait sur le GPU : un unique plan WEBGL texturé par un fragment shader GLSL écrit à la main, qui combine plusieurs couches de bruit sinusoïdal animées dans le temps pour un effet plasma. Aucune forme n'est dessinée en JavaScript — chaque pixel est calculé indépendamment par le shader, à chaque frame." }
+]
